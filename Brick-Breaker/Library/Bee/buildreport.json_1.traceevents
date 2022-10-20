@@ -1,0 +1,601 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1666209562813442, "dur": 42055166, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666209562815630, "dur": 38789, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666209562854789, "dur": 510645, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666209563365483, "dur": 968413, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666209564333899, "dur": 40523150, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666209604857093, "dur": 11514, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666209763444830, "dur": 6873066, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666209763445243, "dur": 5257, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666209763450504, "dur": 1117117, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666209764567623, "dur": 1741885, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666209766309512, "dur": 4006894, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666209770316408, "dur": 1486, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666209770319577, "dur": 49, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1666209765995487, "dur": 292343, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1666209765997052, "dur": 78611, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1666209766254305, "dur": 12379, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1666209766266691, "dur": 21104, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1666209766268019, "dur": 17013, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1666209766298349, "dur": 2002, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1666209766297604, "dur": 2806, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666209770321030, "dur": 512, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1666209766898332, "dur":6942, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666209766905287, "dur":85, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1666209766905416, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1666209766905439, "dur":423, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1666209766905897, "dur":952, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666209766906849, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666209770295210, "dur":171, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666209770295381, "dur":143, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666209770295524, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666209770295530, "dur":132, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666209770295662, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666209770295664, "dur":118, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666209770295782, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666209770295784, "dur":119, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666209770295903, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666209770295919, "dur":5, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666209770295972, "dur":5764, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1666209766906158, "dur":707, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209766906869, "dur":4244, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209766911162, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1666209766911269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209766923906, "dur":3991, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1666209766927904, "dur":1236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1666209766929150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209766930358, "dur":7490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1666209766937850, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1666209766937959, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209766937986, "dur":36559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1666209766974647, "dur":1000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1666209766975655, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209766975875, "dur":1799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1666209766977747, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1666209766977832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209766977844, "dur":17200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1666209766995152, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1666209766995249, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209766996298, "dur":2668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1666209766999087, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1666209766999207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209766999383, "dur":2124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1666209767001580, "dur":72050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1666209767073638, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209767073653, "dur":2535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1666209767076251, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1666209767076351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209767076362, "dur":1690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1666209767078110, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1666209767078179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209767078188, "dur":54403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1666209767132762, "dur":348544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1666209767481314, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209767481325, "dur":3142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1666209767484540, "dur":35705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209767520253, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209767520946, "dur":2558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209767523577, "dur":28766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209767552351, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209767552365, "dur":4478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209767556935, "dur":792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209767557735, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209767557748, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209767559613, "dur":92845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209767652466, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209767652482, "dur":54174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209767706745, "dur":970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209767707725, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209767707740, "dur":2022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209767709830, "dur":150760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209767860646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209767860653, "dur":2392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209767863105, "dur":28937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209767892050, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209767892064, "dur":2670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209767894818, "dur":30687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209767925515, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209767925532, "dur":2371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209767927966, "dur":25247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209767953221, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209767953235, "dur":2776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209767956102, "dur":37969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209767994080, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209767994097, "dur":2194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209767996355, "dur":20690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768017053, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209768017067, "dur":1741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768018865, "dur":16453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768035326, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209768035340, "dur":1737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768037142, "dur":24639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768061786, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209768061795, "dur":2483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768064363, "dur":37124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768101497, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209768101513, "dur":2262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768103858, "dur":30510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768134396, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209768134407, "dur":2433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768136899, "dur":11499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768148406, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209768148420, "dur":1974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768150463, "dur":640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768151113, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209768151130, "dur":1910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768153112, "dur":2988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768156111, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209768156127, "dur":2592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768158798, "dur":696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768159503, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209768159520, "dur":2455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768162041, "dur":521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768162566, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209768162577, "dur":1881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768164534, "dur":2065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768166607, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209768166621, "dur":2255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768168942, "dur":21952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768190903, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209768190918, "dur":2369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768193367, "dur":28339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768221717, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209768221732, "dur":2521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768224343, "dur":1486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768225838, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209768225852, "dur":2151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768228069, "dur":9796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768237873, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209768237887, "dur":3555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768241524, "dur":859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768242396, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209768242413, "dur":2254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768244735, "dur":24331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768269075, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209768269090, "dur":2548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768271704, "dur":39326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768311039, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209768311055, "dur":2199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768313323, "dur":104975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768418301, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209768418310, "dur":2115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768420498, "dur":622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768421124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209768421136, "dur":1834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768423022, "dur":59757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768482788, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209768482803, "dur":2806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768485689, "dur":19046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768504744, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209768504758, "dur":1690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209768506506, "dur":680667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209769187182, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209769187203, "dur":10585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209769197869, "dur":116609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209769314684, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209769314705, "dur":2492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209769317288, "dur":490706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209769808003, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209769808017, "dur":2618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209769810699, "dur":11864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209769822572, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209769822587, "dur":1771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209769824419, "dur":125062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209769949491, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209769949508, "dur":3576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209769953154, "dur":68575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209770021738, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209770021753, "dur":2820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1666209770024664, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":1, "ts":1666209770024723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209770024730, "dur":2712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":1, "ts":1666209770027513, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":1, "ts":1666209770027582, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209770027595, "dur":15052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":1, "ts":1666209770042746, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":1, "ts":1666209770042821, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209770042833, "dur":27644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":1, "ts":1666209770070553, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1666209770070614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209770070626, "dur":3301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1666209770074008, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1666209770074083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209770074095, "dur":5371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1666209770079587, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1666209770079683, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209770079699, "dur":22690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1666209770102472, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1666209770102540, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209770102551, "dur":3662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1666209770106299, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level6.resS" }}
+,{ "pid":12345, "tid":1, "ts":1666209770106371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209770106384, "dur":2656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level6.resS" }}
+,{ "pid":12345, "tid":1, "ts":1666209770109109, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level5" }}
+,{ "pid":12345, "tid":1, "ts":1666209770109174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209770109184, "dur":4037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level5" }}
+,{ "pid":12345, "tid":1, "ts":1666209770113298, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level3.resS" }}
+,{ "pid":12345, "tid":1, "ts":1666209770113434, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209770113447, "dur":7264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level3.resS" }}
+,{ "pid":12345, "tid":1, "ts":1666209770120799, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1666209770120878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209770120891, "dur":15859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1666209770136826, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1666209770136888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209770136896, "dur":2460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1666209770139410, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1666209770139469, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1666209770139475, "dur":2248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1666209770141790, "dur":153405, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209766906176, "dur":697, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209766906873, "dur":4261, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209766911170, "dur":1515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1666209766912692, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209766926101, "dur":5583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1666209766931756, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1666209766931839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209766931955, "dur":65011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1666209766997145, "dur":85853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1666209767083006, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209767083022, "dur":1798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1666209767084895, "dur":139978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209767224882, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209767225479, "dur":2378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209767227926, "dur":705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker.exe" }}
+,{ "pid":12345, "tid":2, "ts":1666209767228639, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209767228650, "dur":3028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker.exe" }}
+,{ "pid":12345, "tid":2, "ts":1666209767231734, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1666209767231816, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209767232312, "dur":223166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1666209767455552, "dur":89106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209767544666, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209767544929, "dur":1591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209767546578, "dur":7822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209767554411, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209767554428, "dur":3613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209767558135, "dur":93045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209767651188, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209767651217, "dur":51788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209767703090, "dur":644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209767703740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209767703752, "dur":4334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209767708178, "dur":152380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209767860563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209767860648, "dur":2324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209767863035, "dur":29481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209767892520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209767892527, "dur":2290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209767894970, "dur":58680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209767953658, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209767953672, "dur":4315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209767958076, "dur":222395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768180480, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209768180493, "dur":3555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768184124, "dur":4887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768189020, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209768189035, "dur":2242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768191446, "dur":35821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768227277, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209768227292, "dur":2752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768230120, "dur":7670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768237799, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209768237843, "dur":3954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768241873, "dur":27204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768269086, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209768269102, "dur":2597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768271767, "dur":40892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768312663, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209768312695, "dur":2642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768315409, "dur":1008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768316425, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209768316439, "dur":2260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768318802, "dur":224685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768543497, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209768543514, "dur":3893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768547482, "dur":23148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768570639, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209768570653, "dur":2301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768573023, "dur":46370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768619402, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209768619417, "dur":1690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768621170, "dur":51234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768672413, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209768672428, "dur":2587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768675088, "dur":27617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768702714, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209768702728, "dur":2637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768705436, "dur":32490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768737934, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209768737948, "dur":1877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768739885, "dur":116801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768856694, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209768856710, "dur":2555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768859438, "dur":28014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768887461, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209768887475, "dur":2105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768889658, "dur":872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768890534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209768890545, "dur":2208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768892828, "dur":467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768893299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209768893311, "dur":1920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768895302, "dur":17025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768912336, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209768912351, "dur":2012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768914460, "dur":660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768915124, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209768915136, "dur":2149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768917354, "dur":16744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768934107, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209768934121, "dur":1809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768935990, "dur":447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768936446, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209768936461, "dur":1936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768938457, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768938750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209768938760, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768940205, "dur":370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768940578, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209768940586, "dur":1945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768944072, "dur":17193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768961274, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209768961289, "dur":1772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209768963120, "dur":163453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209769126600, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209769126617, "dur":68318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209769195018, "dur":60718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209769255745, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209769255761, "dur":2409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209769258246, "dur":147009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209769405264, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209769405280, "dur":2041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209769407385, "dur":165695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209769573088, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209769573103, "dur":2206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209769575398, "dur":10798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209769586205, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209769586221, "dur":2081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209769588367, "dur":59165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209769647542, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209769647560, "dur":2179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209769649803, "dur":27572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209769677384, "dur":65, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209769677461, "dur":5218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209769682741, "dur":665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209769683414, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209769683429, "dur":1822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209769685310, "dur":59372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209769744690, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209769744704, "dur":6351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209769751118, "dur":3207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209769754334, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209769754350, "dur":7237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209769761736, "dur":180697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209769942441, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209769942456, "dur":8437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209769950971, "dur":58481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209770009461, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209770009477, "dur":2371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209770011922, "dur":17685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209770029648, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209770029665, "dur":3982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1666209770033727, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1666209770033798, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209770033811, "dur":7366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1666209770041254, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":2, "ts":1666209770041316, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209770041326, "dur":32327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":2, "ts":1666209770073719, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666209770073794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209770073801, "dur":3040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666209770076949, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666209770077016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209770077028, "dur":7697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666209770084844, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1666209770084907, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209770084920, "dur":8484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1666209770093500, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666209770093585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209770093598, "dur":6400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1666209770100102, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1666209770100182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209770100195, "dur":4800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1666209770105129, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level7" }}
+,{ "pid":12345, "tid":2, "ts":1666209770105197, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209770105208, "dur":3118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level7" }}
+,{ "pid":12345, "tid":2, "ts":1666209770108426, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level5.resS" }}
+,{ "pid":12345, "tid":2, "ts":1666209770108501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209770108512, "dur":3502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level5.resS" }}
+,{ "pid":12345, "tid":2, "ts":1666209770112085, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level4" }}
+,{ "pid":12345, "tid":2, "ts":1666209770112151, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209770112163, "dur":6503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level4" }}
+,{ "pid":12345, "tid":2, "ts":1666209770118782, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level2.resS" }}
+,{ "pid":12345, "tid":2, "ts":1666209770118859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209770118871, "dur":16042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level2.resS" }}
+,{ "pid":12345, "tid":2, "ts":1666209770134992, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1666209770135059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209770135070, "dur":2429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1666209770137564, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1666209770137626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209770137633, "dur":3214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1666209770140940, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1666209770141081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1666209770141092, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1666209770143126, "dur":152063, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666209766906241, "dur":638, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666209766906879, "dur":4252, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666209766911181, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1666209766911365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666209766926537, "dur":65212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1666209766991820, "dur":20905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1666209767012733, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666209767012749, "dur":2464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1666209767015310, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1666209767015403, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666209767015418, "dur":77974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1666209767093459, "dur":3028550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666209770122016, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1666209770122029, "dur":173047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1666209770295157, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1666209770295161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209766906289, "dur":596, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209766906885, "dur":4242, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209766911174, "dur":2028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1666209766913211, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209766932257, "dur":5488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1666209766937821, "dur":24675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1666209766962504, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209766962519, "dur":2772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1666209766965392, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1666209766965499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209766966514, "dur":27115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1666209766993706, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1666209766993832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209766993843, "dur":93572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1666209767087545, "dur":739355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209767826908, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209767827181, "dur":10529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209767837796, "dur":20989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209767858795, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209767858813, "dur":2190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209767861084, "dur":31169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209767892262, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209767892276, "dur":2689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209767895066, "dur":58705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209767953775, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209767953784, "dur":4691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209767958533, "dur":66357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768024899, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209768024913, "dur":1996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768026971, "dur":33141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768060122, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209768060137, "dur":3492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768063712, "dur":38034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768101750, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209768101758, "dur":2337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768104198, "dur":28885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768133092, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209768133108, "dur":2616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768135812, "dur":30523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768166342, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209768166353, "dur":2192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768168619, "dur":35330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768203958, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209768204004, "dur":2164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768206235, "dur":706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768206948, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209768206961, "dur":3175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768210213, "dur":18126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768228344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209768228353, "dur":2117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768230520, "dur":82040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768312566, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209768312578, "dur":2788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768315423, "dur":616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768316042, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209768316054, "dur":1864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768317989, "dur":31175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768349173, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209768349188, "dur":2801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768352051, "dur":66081, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768418141, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209768418155, "dur":2357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768420604, "dur":63114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768483727, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209768483742, "dur":8061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768491876, "dur":34059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768525943, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209768525957, "dur":2479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768528510, "dur":27129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768555648, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209768555662, "dur":2442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768558188, "dur":12589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768570780, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209768570789, "dur":2545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768573409, "dur":373311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768946729, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209768946743, "dur":2445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768949265, "dur":1442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768950711, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209768950723, "dur":1690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768952472, "dur":568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768953049, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209768953064, "dur":2290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209768955417, "dur":58681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209769014107, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209769014123, "dur":2000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209769016194, "dur":832254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209769848489, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209769848505, "dur":5954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209769854523, "dur":105083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209769959615, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209769959629, "dur":2233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209769961945, "dur":13123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209769975076, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209769975090, "dur":2072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209769977262, "dur":7986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209769985260, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209769985275, "dur":7585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209769992931, "dur":18524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209770011463, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209770011551, "dur":5853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1666209770017480, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1666209770017628, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209770019742, "dur":1822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1666209770021631, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1666209770021690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209770021841, "dur":2526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1666209770024443, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets7.resource" }}
+,{ "pid":12345, "tid":4, "ts":1666209770024655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209770024668, "dur":15051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets7.resource" }}
+,{ "pid":12345, "tid":4, "ts":1666209770039792, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":4, "ts":1666209770039851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209770039862, "dur":2593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":4, "ts":1666209770042523, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":4, "ts":1666209770042623, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209770042633, "dur":9264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":4, "ts":1666209770052088, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":4, "ts":1666209770052158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209770052173, "dur":3135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":4, "ts":1666209770055403, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":4, "ts":1666209770055481, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209770055493, "dur":18009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":4, "ts":1666209770073579, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":4, "ts":1666209770073644, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209770073656, "dur":20993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":4, "ts":1666209770094739, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1666209770094938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209770094949, "dur":3620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1666209770098649, "dur":642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1666209770099300, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209770099316, "dur":3196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1666209770102609, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level7.resS" }}
+,{ "pid":12345, "tid":4, "ts":1666209770102713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209770102725, "dur":3723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level7.resS" }}
+,{ "pid":12345, "tid":4, "ts":1666209770106525, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level6" }}
+,{ "pid":12345, "tid":4, "ts":1666209770106604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209770106614, "dur":3830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level6" }}
+,{ "pid":12345, "tid":4, "ts":1666209770110562, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level4.resS" }}
+,{ "pid":12345, "tid":4, "ts":1666209770110670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209770110681, "dur":7414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level4.resS" }}
+,{ "pid":12345, "tid":4, "ts":1666209770118244, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1666209770118334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209770118346, "dur":2326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1666209770120758, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1666209770120841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209770120856, "dur":15167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1666209770136097, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1666209770136154, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209770136196, "dur":2812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1666209770139070, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1666209770139131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1666209770139140, "dur":2365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/AMD-A8/Desktop/Games/Brick-Breaker/Brick-Breaker_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1666209770141567, "dur":153635, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1666209770309196, "dur":3704, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1666209770321651, "dur": 1193, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1666209770319549, "dur": 3331, "ph": "X", "name": "Write chrome-trace events", "args": {} },
