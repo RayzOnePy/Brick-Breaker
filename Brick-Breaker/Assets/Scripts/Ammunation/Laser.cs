@@ -8,11 +8,11 @@ public class Laser : MonoBehaviour
         _rb.AddForce(transform.up * 100);
     }
     private void FixedUpdate() {
-        _rb.velocity = _rb.velocity.normalized * 4;
+        _rb.velocity = new Vector3(0, 4, 0);
     }
     private void OnCollisionEnter(Collision other) {
         if (other.gameObject.tag == "Breakable"){
-            Destroy(other.gameObject);
+            other.gameObject.GetComponent<Brick>().hp -= 99;
         }
         else{
             Destroy(gameObject);
